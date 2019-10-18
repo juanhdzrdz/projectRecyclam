@@ -1,0 +1,36 @@
+<div class="topnav" id="myTopnav" style="background:rgba(0,0,0,0)">
+  <a class="optmenu" routerLink="/inicio">
+    <div class="optmenulinear home">
+      <i class="fas fa-home" style="margin:0px 10px;"></i>Inicio
+  </div></a>
+  <a class="optmenu" routerLink="/catalogo">
+  <div class="optmenulinear catalogo">
+      <i class="fas fa-list" style="margin:0px 10px;"></i>Catálogo
+  </div>
+  </a>
+  <a class="optmenu" routerLink="/contacto">
+    <div class="optmenulinear contacto">
+        <i class="fas fa-address-card" style="margin:0px 10px;"></i>Contacto
+    </div>
+  </a>
+  <a class="optmenu" routerLink="/about">
+      <div class="optmenulinear acerca">
+          <i class="fas fa-question-circle" style="margin:0px 10px;"></i>Acerca de nosotros
+      </div>
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>

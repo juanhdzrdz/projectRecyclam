@@ -1,0 +1,26 @@
+
+.topnav a.active{
+  background:none;
+}
+.optmenu{
+  transition:0.2s;
+  border:10px linear #000;
+}
+
+.active{
+  border-bottom:3px solid rgba(76,175,80,1);
+  color: rgba(76,175,80,1);
+}
+
+.optmenu .optmenulinear{
+  transition:0.2s;
+  border-bottom:3px solid rgba(0,0,0,0);
+}
+.optmenu:hover .optmenulinear{
+  transition:0.8s;
+  border-bottom:3px solid rgba(76,175,80,1);
+}
+.optmenu:hover{
+  color:rgba(76,175,80,1);
+  background:none;
+}
